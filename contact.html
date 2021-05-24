@@ -19,10 +19,8 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-    <!-- Header start -->
-    <header>
-        <!-- Header Topbar Start -->
-        <div class="container">
+           <!-- Header Topbar Start -->
+           <div class="container">
             <div class="header-top">
 				<div class="d-flex align-items-center justify-content-end">			
                     <div class="header-right-div d-flex px-3 pt-2">
@@ -30,7 +28,7 @@
                             <a href="#"><i class="fab fa-letter"></i> test@test.com</a>
                         </div>
                         <div class="phone-numbers d-flex">
-                            <a href="#"><i class="fas fa-phone"></i> 0801234586</a>
+                            <a href="#"><i class="fas fa-phone-volume"></i> 0801234586</a>
                         </div>
                         <div class="soical-profile d-flex">
                             <ul class="d-flex px-2">
@@ -47,7 +45,7 @@
 
         <!-- Header Navbar Start -->
 
-            <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top py-3">
                 <div class="container">
                     <a class="navbar-brand" href="#">Index Engineering Consults</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,24 +54,70 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
                         <li class="nav-item">
-                        <a class="nav-link active p-3" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link  p-3" aria-current="page" href="#"> <i class="fas fa-home"></i> HOME</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link p-3" href="#">ABOUT US</a>
+                        <a class="nav-link p-3" href="#"> <i class="fas fa-users"></i> ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link p-3" href="#">CONTACT US</a>
+                        <a class="nav-link active p-3" href="#"> <i class="fas fa-phone-volume"></i> CONTACT US</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link p-3" href="#">SERVICES</a>
+                        <a class="nav-link p-3" href="#"> <i class="fas fa-tools"></i> SERVICES</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link p-3" href="#">PROJECTS</a>
+                        <a class="nav-link p-3" href="#"> <i class="fas fa-cogs"></i> PROJECTS</a>
                         </li>
                     </ul>
                     </div>
                 </div>
-            </nav>
-        
-        <!-- Heaader Navbar End -->
-    </header>
+            </nav
+        <!-- Header Navbar End -->
+
+        <!-- image div -->
+        <div class="img-wrapper">
+            <img src="/assets/img/firmbee-com-SpVHcbuKi6E-unsplash.jpg" alt="">
+            <p>CONTACT US</p>
+        </div> 
+        <!-- image div end -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="contact-form col-md-8">
+            <div class="message">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officia sunt ullam dolorum ea iusto doloremque repudiandae? Ducimus necessitatibus obcaecati esse, iste explicabo blanditiis tempora corrupti voluptatem? Possimus, nobis voluptatibus?
+            </div>
+            <h1>Contact form</h1>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+    
+        </div>
+    
+        <div class="address col-md-4">
+            <div class="address1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolorem repellendus cum voluptate ratione recusandae ex mollitia! Sed, temporibus ex.</p>
+            </div>
+    
+            <div class="address2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, harum id? Unde, deleniti earum obcaecati quia adipisci omnis accusantium architecto.</p>
+    
+            </div>
+    
+        </div>
+    
+    </div>
+</div>
