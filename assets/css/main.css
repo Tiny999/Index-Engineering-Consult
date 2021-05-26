@@ -24,6 +24,19 @@ a:hover{
     color: #333;
 }
 
+p{
+    color: #727272;
+    font-weight: 300;
+}
+
+/* Utils */
+span.drop-cap{
+    float: left;
+    font-size: 4rem;
+    line-height: 0.65;
+    margin: 0.1em 0.1em 0.2em 0;
+}
+
 /* Header Styles */
 .header-top{
     font-size: 14px;
@@ -71,6 +84,54 @@ a:hover{
 }
 
 /* Mission / Vission */
+#mission-sec{
+    margin-top: 80px;
+}
+
+.mission{
+    width: 48%;
+    box-shadow: 0 1px 3px #ccc;
+    border-radius: 4px;
+    padding: 40px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.mission h2{
+    text-transform: uppercase;
+}
+
+/* Welcome section */
+#welcome-sec{
+    background-color: #f4f4f4;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Services Section */
+#our-services{
+    background: url('../img/services-bg.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+.column{
+    width: 50%;
+    padding: 20px;
+}
+.column1{
+    text-align: right;
+    border-right: 1px solid #fff;
+}
+.service img{
+    border-radius: 50%;
+}
+.service p{
+    color: #f4f4f4;
+}
+
+/* Projects Executed */
+
+
 
 
 /* contact page */

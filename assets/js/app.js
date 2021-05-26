@@ -5,3 +5,5 @@ $(document).ready(function () {
         directionNav: false
     });
 })
+
+AOS.init();
