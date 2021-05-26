@@ -89,7 +89,6 @@ span.drop-cap{
 }
 
 .mission{
-    width: 48%;
     box-shadow: 0 1px 3px #ccc;
     border-radius: 4px;
     padding: 40px;
@@ -115,12 +114,11 @@ span.drop-cap{
     color: #fff;
 }
 .column{
-    width: 50%;
     padding: 20px;
 }
-.column1{
-    text-align: right;
-    border-right: 1px solid #fff;
+.column1,
+.column2{
+    text-align: center;
 }
 .service img{
     border-radius: 50%;
@@ -130,13 +128,49 @@ span.drop-cap{
 }
 
 /* Projects Executed */
+#projects-exec h1{
+    font-weight: 200;
+}
 
+#projects-exec .project h3{
+    font-weight: 300;
+}
 
+#projects-exec .project p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Our Clients */
+#our-clients{
+    background: url('../img/clients-bg.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+/* Footer */
+#footer{
+    background: #333;
+    color: #fff;
+}
+
+#footer p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.footer-bottom{
+    border-top: 1px dotted #fff;
+    font-size: 14px;
+}
+
+.footer-bottom a i{
+    color: #f4f4f4;
+}
 
 
 /* contact page */
 .img-wrapper {
-    background-image: url(/assets/img/james-padolsey-tvPvROBv0F4-unsplash.jpg);
+    background: url(/assets/img/james-padolsey-tvPvROBv0F4-unsplash.jpg) no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,11 +178,8 @@ span.drop-cap{
     height:300px;
     position:relative;
 }
-.img-wrapper img  {
-    width: 150px;
-    height:100px;
-    position: absolute;
-    left: 120px;
-    top: 100px;
-    border: transparent;
+
+/* Contact */
+#contactForm .btn{
+    border: 1px solid #ccc;
 }

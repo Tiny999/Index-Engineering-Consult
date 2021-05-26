@@ -1,0 +1,23 @@
+/* Desktop screen styles */
+
+@media (min-width: 768px) {
+    /* Mission / Vission */
+
+    .mission{
+        width: 48%;
+    }
+
+    /* Services */
+    .column{
+        width: 50%;
+    }
+    .column1{
+        text-align: right;
+        border-right: 1px solid #fff;
+    }
+    .column2{
+        text-align: left;
+    }
+
+
+}
