@@ -142,8 +142,13 @@ span.drop-cap{
     align-items: center;
     width:100%;
     height:300px;
+    position:relative;
 }
 .img-wrapper img  {
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height:100px;
+    position: absolute;
+    left: 120px;
+    top: 100px;
+    border: transparent;
 }
