@@ -71,3 +71,18 @@ a:hover{
 }
 
 /* Mission / Vission */
+
+
+/* contact page */
+.img-wrapper {
+    background-image: url(/assets/img/james-padolsey-tvPvROBv0F4-unsplash.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:300px;
+}
+.img-wrapper img  {
+    width: 100px;
+    height: 50px;
+}
