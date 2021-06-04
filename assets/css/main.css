@@ -77,6 +77,14 @@ span.drop-cap{
 #slide1{
     background: url('https://source.unsplash.com/random') no-repeat center center/cover;
 }
+#slide1 h1{
+    color: #fff;
+    font-weight: 300;
+}
+
+#slide1 h1 strong{
+    font-weight: 600;
+}
 #slide2{
     background: url('https://source.unsplash.com/random?dogs') no-repeat center center/cover;
 }
@@ -188,6 +196,7 @@ span.drop-cap{
     width:100%;
     height:300px;
     position:relative;
+    margin-bottom: 20px;
 }
 
 /* Contact */
@@ -201,35 +210,30 @@ span.drop-cap{
     background-repeat: no-repeat;
 }
 
-.service .tab{
-    width: 400px;
+.tab{
+    width: 150px;
     height: 100px;
+    margin: auto;
     background-color: #13afeb;
     color: #fff;
     padding: 20px;
     font-size: 16px;
-    margin-right: 80px;
     position: relative;
+    margin-bottom: 20px;
 }
 
-.service .tab::after{
-    content: '';
-    position: absolute;
-    top: 40%;
-    left: 100%;
-    width: 0; 
-    height: 0; 
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;  
-    border-left: 10px solid #13afeb;
-}
 
-.service .tab p{
+a.tab:hover{
     color: #fff;
-    text-align: center;
 }
 
-.service .tab i{
+.tab p{
+    color: #fff !important;
+    text-align: center !important;
+}
+
+
+.tab i{
     font-size: 20px;
 }
 
@@ -268,13 +272,8 @@ span.drop-cap{
     z-index: 1;
 }
 
-#gallery{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1rem;
-}
-
 #gallery img{
     max-width: 250px;
     border-radius: 4px;
+    margin-top: 1rem;
 }
